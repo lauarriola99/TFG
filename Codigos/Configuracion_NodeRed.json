@@ -1,0 +1,1456 @@
+[
+    {
+        "id": "80da23685dd12621",
+        "type": "tab",
+        "label": "IP",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ccaadac99d5b4601",
+        "type": "tab",
+        "label": "TFG_TEST",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0a5e0ccab746cc33",
+        "type": "tab",
+        "label": "dataBase",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d8c014ee58e24ac5",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bf6b3b8a4ad71dba",
+        "type": "mqtt-broker",
+        "name": "LocalHost",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0fe82f3d91c444d9",
+        "type": "mqtt-broker",
+        "name": "ServerTest",
+        "broker": "192.168.100.86/24",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "bee975905c1c044f",
+        "type": "mqtt-broker",
+        "name": "Server_2",
+        "broker": "192.168.100.32",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4e928620c7fcbd35",
+        "type": "serial-port",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "89d0c0dcf0013528",
+        "type": "mqtt-broker",
+        "name": "raspberry",
+        "broker": "192.168.100.137",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c1f141c142412105",
+        "type": "sqlitedb",
+        "db": "sensorTest",
+        "mode": "RWC"
+    },
+    {
+        "id": "ccaf1ccde349d2b9",
+        "type": "node-red-contrib-whatsapp-cmb-account",
+        "name": "TFG"
+    },
+    {
+        "id": "f86e046b696481d3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#77090e",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#77090e",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#77090e",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#be0e16",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#77090e",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "3f646db812c098ae",
+        "type": "ui_tab",
+        "name": "Aceleraciónes",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "27ffcb042077f03c",
+        "type": "ui_group",
+        "name": "Aceleraciónes MPU",
+        "tab": "3f646db812c098ae",
+        "order": 1,
+        "disp": true,
+        "width": "21",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "adc35384369d41d1",
+        "type": "ui_spacer",
+        "z": "ccaadac99d5b4601",
+        "name": "spacer",
+        "group": "27ffcb042077f03c",
+        "order": 1,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "5b22f5eebba5a5d0",
+        "type": "ui_spacer",
+        "z": "ccaadac99d5b4601",
+        "name": "spacer",
+        "group": "27ffcb042077f03c",
+        "order": 5,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "eddb94863981e9f5",
+        "type": "ui_spacer",
+        "z": "ccaadac99d5b4601",
+        "name": "spacer",
+        "group": "27ffcb042077f03c",
+        "order": 12,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "2e63b77f2fb29e69",
+        "type": "ui_spacer",
+        "z": "ccaadac99d5b4601",
+        "name": "spacer",
+        "group": "27ffcb042077f03c",
+        "order": 13,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "bbcf9c35006a45ae",
+        "type": "ui_spacer",
+        "z": "ccaadac99d5b4601",
+        "name": "spacer",
+        "group": "27ffcb042077f03c",
+        "order": 15,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "89b3e7b59965faf5",
+        "type": "ui_spacer",
+        "z": "ccaadac99d5b4601",
+        "name": "spacer",
+        "group": "27ffcb042077f03c",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "55b1091c4fae7adc",
+        "type": "ui_spacer",
+        "z": "ccaadac99d5b4601",
+        "name": "spacer",
+        "group": "27ffcb042077f03c",
+        "order": 17,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "893d9790f2d56561",
+        "type": "sqlitedb",
+        "db": "TFG",
+        "mode": "RWC"
+    },
+    {
+        "id": "31cd857e06d78b4a",
+        "type": "inject",
+        "z": "80da23685dd12621",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 640,
+        "wires": [
+            [
+                "e27172d09858dbff"
+            ]
+        ]
+    },
+    {
+        "id": "c5898a513942db8f",
+        "type": "function",
+        "z": "80da23685dd12621",
+        "name": "depurar IpV4",
+        "func": "msg.Ipv4 = msg.payload[1].address;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e27172d09858dbff",
+        "type": "hostip",
+        "z": "80da23685dd12621",
+        "name": "Host IP",
+        "x": 440,
+        "y": 640,
+        "wires": [
+            [
+                "c5898a513942db8f"
+            ]
+        ]
+    },
+    {
+        "id": "56aceb8b991fbe40",
+        "type": "debug",
+        "z": "ccaadac99d5b4601",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ea27135e032134af",
+        "type": "mqtt in",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "topic": "acelerometro/ax",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 191,
+        "y": 303,
+        "wires": [
+            [
+                "56aceb8b991fbe40",
+                "4c5f6640bbad9ba4",
+                "66af0c6b7701f961",
+                "dc96b8fd159c3e7e"
+            ]
+        ]
+    },
+    {
+        "id": "0766c911b7a50d8f",
+        "type": "debug",
+        "z": "ccaadac99d5b4601",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c213a365fdc0ff92",
+        "type": "mqtt in",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "topic": "acelerometro/ay",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 631,
+        "y": 283,
+        "wires": [
+            [
+                "0766c911b7a50d8f",
+                "77211ade0c4c5a26",
+                "54017bc919bcea8f",
+                "f2c5e8218f9b65ef"
+            ]
+        ]
+    },
+    {
+        "id": "b3e0919682c56b7c",
+        "type": "debug",
+        "z": "ccaadac99d5b4601",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ec12d15b59610ff6",
+        "type": "mqtt in",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "topic": "acelerometro/az",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1071,
+        "y": 263,
+        "wires": [
+            [
+                "b3e0919682c56b7c",
+                "365701f2dbe21f9e",
+                "d845d8fc0e536ed0",
+                "62cf2f7cb736dc0c"
+            ]
+        ]
+    },
+    {
+        "id": "ad61cd2685db6712",
+        "type": "mqtt in",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "topic": "acelerometro/button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 600,
+        "wires": [
+            [
+                "a75869863c2b5f4a",
+                "715e586c88f26559"
+            ]
+        ]
+    },
+    {
+        "id": "4ecb92de4a6736e1",
+        "type": "debug",
+        "z": "ccaadac99d5b4601",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "715e586c88f26559",
+        "type": "node-red-contrib-whatsapp-cmb-send-message",
+        "z": "ccaadac99d5b4601",
+        "name": "RodPy",
+        "credtype": "account",
+        "account": "ccaf1ccde349d2b9",
+        "text": "Botón Activado",
+        "phonenumbervalue": "",
+        "apikeyvalue": "",
+        "apikeyinputtypemessage": "msg",
+        "phonenumberinputtypemessage": "msg",
+        "inputtypemessage": "str",
+        "rejectssl": false,
+        "x": 630,
+        "y": 560,
+        "wires": [
+            [
+                "4ecb92de4a6736e1"
+            ]
+        ]
+    },
+    {
+        "id": "66af0c6b7701f961",
+        "type": "ui_text",
+        "z": "ccaadac99d5b4601",
+        "group": "27ffcb042077f03c",
+        "order": 9,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Aceleración X",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 440,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "54017bc919bcea8f",
+        "type": "ui_text",
+        "z": "ccaadac99d5b4601",
+        "group": "27ffcb042077f03c",
+        "order": 10,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Aceleración y",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d845d8fc0e536ed0",
+        "type": "ui_text",
+        "z": "ccaadac99d5b4601",
+        "group": "27ffcb042077f03c",
+        "order": 11,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Aceleración Z",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1320,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a75869863c2b5f4a",
+        "type": "ui_text",
+        "z": "ccaadac99d5b4601",
+        "group": "27ffcb042077f03c",
+        "order": 14,
+        "width": 7,
+        "height": 2,
+        "name": "",
+        "label": "ESTADO BOTON",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "4c5f6640bbad9ba4",
+        "type": "ui_gauge",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "group": "27ffcb042077f03c",
+        "order": 6,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Aceleración X",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 440,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "77211ade0c4c5a26",
+        "type": "ui_gauge",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "group": "27ffcb042077f03c",
+        "order": 7,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Aceleración Y",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 880,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "365701f2dbe21f9e",
+        "type": "ui_gauge",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "group": "27ffcb042077f03c",
+        "order": 8,
+        "width": 7,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Aceleración Z",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1320,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "dc96b8fd159c3e7e",
+        "type": "ui_chart",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "group": "27ffcb042077f03c",
+        "order": 2,
+        "width": 7,
+        "height": 4,
+        "label": "Aceleración X",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 440,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2c5e8218f9b65ef",
+        "type": "ui_chart",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "group": "27ffcb042077f03c",
+        "order": 3,
+        "width": 7,
+        "height": 4,
+        "label": "AceleraciónY",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 870,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62cf2f7cb736dc0c",
+        "type": "ui_chart",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "group": "27ffcb042077f03c",
+        "order": 4,
+        "width": 7,
+        "height": 4,
+        "label": "Aceleración Z",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1320,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fcce72f6af71b04",
+        "type": "debug",
+        "z": "ccaadac99d5b4601",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "2244f876e44ec65a",
+        "type": "join",
+        "z": "ccaadac99d5b4601",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 850,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c49e436b7019266b",
+        "type": "inject",
+        "z": "0a5e0ccab746cc33",
+        "name": "Create Data base",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE \"mcu_sensor\" ( \t\"sensorID\"\tINTEGER NOT NULL, \t\"dataTime\"\tDATATIME, \t\"accelerationX\"\tTEXT, \t\"accelerationY\"\tTEXT, \t\"accelerationZ\"\tTEXT, \t\"alertStatus\"\tTEXT, \t\"iserID\"\tINTEGER, \tPRIMARY KEY(\"sensorID\" AUTOINCREMENT) );",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "5205cd8aa73ae6d0"
+            ]
+        ]
+    },
+    {
+        "id": "f58ccc676c585455",
+        "type": "debug",
+        "z": "0a5e0ccab746cc33",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4f0c6112ebed723b",
+        "type": "inject",
+        "z": "0a5e0ccab746cc33",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 240,
+        "wires": [
+            [
+                "6c207eec18c009d8"
+            ]
+        ]
+    },
+    {
+        "id": "696028a1f5a1d67f",
+        "type": "function",
+        "z": "0a5e0ccab746cc33",
+        "name": "function 2",
+        "func": "var dataTime =\" 24/11/2023\";\nvar accelerationX = \"1.24\";\nvar accelerationY = \"0.99\";\nvar accelerationZ = \"9.81\";\nvar alertStatus = \" TRUE\";\nvar iserID = \" 01\";\n\nvar newMsg = {\n    \"topic\": \"INSERT INTO mcu_sensor VALUES (\" + 3 + \",\" + dataTime + \", \" + accelerationX + \", \" + accelerationY + \", \" + accelerationZ + \", \" + alertStatus + \", \" + iserID + \")\"\n\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "5205cd8aa73ae6d0"
+            ]
+        ]
+    },
+    {
+        "id": "5205cd8aa73ae6d0",
+        "type": "sqlite",
+        "z": "0a5e0ccab746cc33",
+        "mydb": "893d9790f2d56561",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 590,
+        "y": 120,
+        "wires": [
+            [
+                "f58ccc676c585455"
+            ]
+        ]
+    },
+    {
+        "id": "6c207eec18c009d8",
+        "type": "function",
+        "z": "0a5e0ccab746cc33",
+        "name": "function 3",
+        "func": "\n\nmsg.topic = 'INSERT INTO mcu_sensor (sensorID,dataTime,accelerationX,accelerationY,accelerationZ,alertStatus,iserID) VALUES (null, datetime(\"now\"), $accelerationX, $accelerationY, $accelerationZ , $alertStatus , $iserID);'\nmsg.payload = ['a','b','c','d',1]\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 320,
+        "wires": [
+            [
+                "5205cd8aa73ae6d0"
+            ]
+        ]
+    },
+    {
+        "id": "8fd944bb4616d30d",
+        "type": "sqlite",
+        "z": "0a5e0ccab746cc33",
+        "mydb": "c1f141c142412105",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 670,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42fda1d79c593492",
+        "type": "function",
+        "z": "0a5e0ccab746cc33",
+        "name": "function 5",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 480,
+        "wires": [
+            [
+                "430bbdd20e3cb698"
+            ]
+        ]
+    },
+    {
+        "id": "b73f3f6126bc40c1",
+        "type": "function",
+        "z": "0a5e0ccab746cc33",
+        "name": "function 6",
+        "func": "\nmsg.params = {\n    $accelerationX : 'a'\n    $accelerationY: 'b'\n    $accelerationZ: 'c'\n    $alertStatus: 'd'\n    $iserID: 1\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "06d8ec5eb05d8023",
+        "type": "mqtt in",
+        "z": "0a5e0ccab746cc33",
+        "name": "",
+        "topic": "acelerometro/az",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 380,
+        "y": 520,
+        "wires": [
+            [
+                "23a4b92ab4cac8d6"
+            ]
+        ]
+    },
+    {
+        "id": "703fc3c259342409",
+        "type": "mqtt in",
+        "z": "0a5e0ccab746cc33",
+        "name": "",
+        "topic": "acelerometro/ay",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 380,
+        "y": 480,
+        "wires": [
+            [
+                "42fda1d79c593492"
+            ]
+        ]
+    },
+    {
+        "id": "c8c68d6f5915711c",
+        "type": "mqtt in",
+        "z": "0a5e0ccab746cc33",
+        "name": "",
+        "topic": "acelerometro/ax",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 380,
+        "y": 560,
+        "wires": [
+            [
+                "569fce7913a39a3b"
+            ]
+        ]
+    },
+    {
+        "id": "29c128eb7a6128e5",
+        "type": "mqtt in",
+        "z": "0a5e0ccab746cc33",
+        "name": "",
+        "topic": "acelerometro/button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "bf6b3b8a4ad71dba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 390,
+        "y": 600,
+        "wires": [
+            [
+                "6d9d463f35829248"
+            ]
+        ]
+    },
+    {
+        "id": "b0dd984bbce5251e",
+        "type": "debug",
+        "z": "0a5e0ccab746cc33",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "23a4b92ab4cac8d6",
+        "type": "function",
+        "z": "0a5e0ccab746cc33",
+        "name": "function 7",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 520,
+        "wires": [
+            [
+                "430bbdd20e3cb698"
+            ]
+        ]
+    },
+    {
+        "id": "569fce7913a39a3b",
+        "type": "function",
+        "z": "0a5e0ccab746cc33",
+        "name": "function 8",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 560,
+        "wires": [
+            [
+                "430bbdd20e3cb698"
+            ]
+        ]
+    },
+    {
+        "id": "6d9d463f35829248",
+        "type": "function",
+        "z": "0a5e0ccab746cc33",
+        "name": "function 9",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 600,
+        "wires": [
+            [
+                "430bbdd20e3cb698"
+            ]
+        ]
+    },
+    {
+        "id": "f0d9dec24046e2f6",
+        "type": "json",
+        "z": "0a5e0ccab746cc33",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": true,
+        "x": 950,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "430bbdd20e3cb698",
+        "type": "join",
+        "z": "0a5e0ccab746cc33",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "topic",
+        "propertyType": "msg",
+        "key": "payload",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "4",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 810,
+        "y": 520,
+        "wires": [
+            [
+                "f0d9dec24046e2f6"
+            ]
+        ]
+    },
+    {
+        "id": "9f6ea31882586ce0",
+        "type": "http request",
+        "z": "d8c014ee58e24ac5",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.callmebot.com/whatsapp.php?phone=595986660738&text=Caida+Detectada&apikey=6223966",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 750,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a1f34b6cfeb8bdd",
+        "type": "template",
+        "z": "d8c014ee58e24ac5",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\"sitio\":\"rodpy.com\"}",
+        "output": "str",
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "b3136a48d6e62eb6"
+            ]
+        ]
+    },
+    {
+        "id": "b3136a48d6e62eb6",
+        "type": "change",
+        "z": "d8c014ee58e24ac5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers.content-type",
+                "pt": "msg",
+                "to": "application/json",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "91920400a89bc9fd"
+            ]
+        ]
+    },
+    {
+        "id": "91920400a89bc9fd",
+        "type": "http response",
+        "z": "d8c014ee58e24ac5",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 610,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9dcef42045d4379d",
+        "type": "http in",
+        "z": "d8c014ee58e24ac5",
+        "name": "get",
+        "url": "whatsapp.php?phone=595986660738&text=Caida+detectada&apikey=6223966",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 50,
+        "y": 240,
+        "wires": [
+            [
+                "0a1f34b6cfeb8bdd"
+            ]
+        ]
+    }
+]
